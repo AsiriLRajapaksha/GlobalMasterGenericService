@@ -1,6 +1,6 @@
 {
   "name": "global-master-service",
-  "version": "0.0.0",
+  "version": "1.0.2",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -19,6 +19,8 @@
     "@angular/platform-browser": "~10.0.6",
     "@angular/platform-browser-dynamic": "~10.0.6",
     "@angular/router": "~10.0.6",
+    "es6-shim": "^0.35.5",
+    "reflect-metadata": "^0.1.13",
     "rxjs": "~6.5.5",
     "tslib": "^2.0.0",
     "zone.js": "~0.10.3"

@@ -1,0 +1,1 @@
+export { GlobalMasterGenericService } from './src/app/services/global-master-generic.service';
