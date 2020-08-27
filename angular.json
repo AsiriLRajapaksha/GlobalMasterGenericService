@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "global-master-service"
+    }
+  },
+  "defaultProject": "global-master-service",
+  "cli": {
+    "analytics": "367d8155-cb9c-462b-bf79-869adf9e7283"
+  }
 }
