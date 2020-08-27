@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { HttpClientModule } from '@angular/common/http';
 
 import { AppComponent } from './app.component';
 import { GlobalMasterGenericService } from './services/global-master-generic.service';
@@ -9,7 +10,8 @@ import { GlobalMasterGenericService } from './services/global-master-generic.ser
     AppComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    HttpClientModule,
   ],
   providers: [GlobalMasterGenericService],
   bootstrap: [AppComponent],

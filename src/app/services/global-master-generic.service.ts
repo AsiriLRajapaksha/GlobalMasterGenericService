@@ -6,7 +6,8 @@ import { ApiRequest } from '../models/api-request.model';
 import { RequestType } from '../models/api-request.model';
 import { Parameter } from '../models/parameter.model';
 // import { urlInfo } from '../../assets/configs/global-service-configs.json';
-import json from 'src/assets/configs/global-service-configs.json';
+// import json from 'src/assets/configs/global-service-configs.json';
+import json from '../../assets/configs/global-service-configs.json';
 import { AppResponse } from '../app-response/app-response';
 
 @Injectable({

@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { GlobalMasterGenericService } from './services/global-master-generic.service';
 
 @Component({
   selector: 'app-root',
