@@ -15,4 +15,4 @@ import { GlobalMasterGenericService } from './services/global-master-generic.ser
   bootstrap: [AppComponent],
   // exports: [GlobalMasterGenericService]
 })
-export class AppModule { }
+export class AppModuleGlobal { }
