@@ -11,7 +11,8 @@ import { GlobalMasterGenericService } from './services/global-master-generic.ser
   imports: [
     BrowserModule
   ],
-  providers: [],
-  bootstrap: [AppComponent]
+  providers: [GlobalMasterGenericService],
+  bootstrap: [AppComponent],
+  // exports: [GlobalMasterGenericService]
 })
 export class AppModule { }
